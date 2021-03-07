@@ -1,0 +1,99 @@
+body {  
+  background: rgb(32,106,244);
+  background: linear-gradient(90deg, rgb(22, 35, 59) 15%, rgba(0,0,0,1) 58%);
+  background: cover;
+  text-align: center;
+  background-position: initial;
+}
+
+h1{
+  color: white;
+  background: -webkit-linear-gradient(#eee, rgb(8, 6, 116));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
+
+p {
+  color: white;
+}
+
+.intro {
+  color:rgb(178, 200, 221);
+  font-size: 1em;
+  background: rgb(32,106,244);
+  background: linear-gradient(90deg, rgba(32,106,244,1) 15%, rgba(66,29,83,1) 58%);
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.element {
+  margin: auto;
+  position: relative;
+  display: block;
+  background-color: rgb(50, 50, 133);
+  font-size: 1em;
+  margin-bottom: 100px;
+}
+
+
+.error {
+  color: red;
+}
+
+.file {
+  color: greenyellow;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+img {
+  max-width: 60%;
+  margin: 20px;
+}
+
+
+
+figcaption {
+  color: white;
+}
+
+.progress-bar {
+  height: 5px;
+  color: red;
+  background-color: red;
+  max-width: 50%;
+  text-align: center;
+  margin-left: 500px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
