@@ -1,6 +1,6 @@
 import React from 'react';
 import useFirestore from '../hooks/useFirestore';
-import Rating from './rating';
+
 
 const Feed = () => {
     const { docs } = useFirestore('images') // uses useFirestore hook to collect the data from the firebase database
@@ -15,7 +15,7 @@ const Feed = () => {
                         <figure>
                             <img src={doc.url} alt="uploaded picture"></img>
                             <figcaption>This picture was rated and Average:<span> {doc.rating} </span> out of 5</figcaption>
-                            <Rating />
+                            <button type='button'>+ 1 </button>
                         </figure>
                         
                     </div>
